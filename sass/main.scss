@@ -1,0 +1,27 @@
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+
+// Style dla pliku z przykładem HTML fragmentu
+
+@import './utils/variables';
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./components/main-headers";
+@import "./components/icons";
+@import "./components/btn";
+
+@import './layout/hero-header';
+@import './layout/backdrop';
+@import "./layout/products";
+@import "./layout/about";
+@import './layout/modal-readMore';
+@import "./layout/advantages";
+@import "./layout/gallery";
+@import "./layout/customer-reviews";
+
+@import "./layout/contacts";
+@import "./layout/footer";

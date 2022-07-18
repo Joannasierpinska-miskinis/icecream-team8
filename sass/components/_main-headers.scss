@@ -1,0 +1,27 @@
+.main-header {
+    text-transform: uppercase;
+    color: $vivid-pink;
+    font-family: $head-font;
+    font-weight: 400;
+
+    &--style {
+            width: 200px;
+            font-size: 34px;
+            line-height: 1.147;
+            letter-spacing: 0.04em;
+        }
+}
+
+.secondary-header {
+    text-transform: uppercase;
+    color: $light-pink;
+    font-family: $head-font;
+    font-weight: 400;
+
+    &--style {
+            width: 232px;
+            font-size: 18px;
+            line-height: 1.167;
+            margin-bottom: 17px;
+        }
+}
